@@ -12,7 +12,7 @@ pull this code down to your local machine then...
  RUN IMAGE: 
  
  ```
- docker run <name-of-image>
+ docker run -tid <name-of-image> /bin/bash
  ```
  GET Container_ID from running image process
  
