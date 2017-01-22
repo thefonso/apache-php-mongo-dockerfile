@@ -49,6 +49,7 @@ RUN pecl install mongo-$MONGO_PHP_VERSION && \
 
 RUN a2enmod rewrite
 RUN rm -f /etc/apache2/sites-enabled/000-default.conf
+RUN mkdir -p /data/bd
 
 ADD run.sh /run.sh
 
