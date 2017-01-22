@@ -38,18 +38,18 @@ pull this code down to your local machine then...
  
  ## run second image attached to local app
  
-```
-docker build -t <your-name-for-new-image> .
-### (reads Dockerfile file)
-### assuming image name is 750words-fonso...(run images with app code connection)
+ ```
+ ### (reads Dockerfile file)
+ docker build -t <your-name-for-new-image> .
 
-docker run -d -v /Users/aleph/Sites/750words:/var/www/html/ -p 80 750words-fonso
+ ### assuming image-name is 750words-fonso...(run images with app code connection)
+ docker run -d -v /Users/aleph/Sites/750words:/var/www/html/ -p 80 750words-fonso
 
-docker ps
-### (note container_id from process names)
+ docker ps
+ ### (note container_id from process names)
 
-docker exec -i -t <container_ID> /bin/bash
-```
+ docker exec -i -t <container_ID> /bin/bash
+ ```
 
 ### Contents
 
