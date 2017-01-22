@@ -14,6 +14,11 @@ pull this code down to your local machine then...
  ```
  docker run <name-of-image>
  ```
+ GET Container_ID from running image process
+ 
+ ```
+ docker ps
+ ```
  
  GET PROMPT:
  ```
